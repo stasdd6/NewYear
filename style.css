@@ -44,8 +44,8 @@ body{
 .hidden.show{opacity:1;transform:translateY(0)}
 .note{font-size:.85rem;color:#807070;margin-top:1.25rem}
 
-/* unified festive theme */
-:root{--bg:linear-gradient(180deg,#f4fbff,#fffaf6);--bg-image:url('images/front/fon.jpg');--accent:#2f6f4e;--muted:#5b5252;--card-bg:rgba(255,255,255,0.9)}
+/* unified festive theme - update root colors only, keep other rules */
+:root{--accent:#2f6f4e;--muted:#5b5252;--card-bg:rgba(255,255,255,0.9)}
 
 .card{position:relative;z-index:2}
 .ornaments{position:absolute;top:-24px;left:0;right:0;pointer-events:none;height:0}
@@ -63,8 +63,8 @@ body{
 .page{min-height:100%;display:flex;align-items:center;justify-content:center;padding:3rem;z-index:1;position:relative}
 
 /* small festive tweaks */
-.greeting{margin:0 0 .5rem 0;font-size:1.5rem;color:var(--accent);text-shadow:0 1px 0 rgba(255,255,255,0.6)}
-.subtitle{margin:0 0 1.25rem 0;color:var(--muted);font-weight:500}
+.greeting{margin:0 0 .5rem 0;font-size:1.5rem;color:var(--accent)}
+.subtitle{margin:0 0 1.25rem 0;color:var(--muted)}
 .note{font-size:.85rem;color:#6b5b5b;margin-top:1.25rem;opacity:0.95}
 
 /* small responsive tweak */
