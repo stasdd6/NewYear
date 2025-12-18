@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <rect width="100%" height="100%" fill="#fff8f5"/>
+  <g transform="translate(80,60)">
+    <circle cx="250" cy="160" r="120" fill="#f6d5d9"/>
+    <rect x="220" y="380" width="220" height="120" rx="18" fill="#7a5b5b" opacity="0.95" />
+    <text x="300" y="200" text-anchor="middle" font-size="48" fill="#7a3b4a" font-family="sans-serif">Дома</text>
+    <text x="300" y="460" text-anchor="middle" font-size="28" fill="#fff">Тёплый семейный уголок</text>
+  </g>
+</svg>

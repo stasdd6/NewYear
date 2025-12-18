@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <rect width="100%" height="100%" fill="#fffef6"/>
+  <g transform="translate(80,60)">
+    <circle cx="300" cy="200" r="120" fill="#e6f7e9"/>
+    <text x="300" y="210" text-anchor="middle" font-size="44" fill="#2b7a4a">Салат</text>
+    <text x="300" y="320" text-anchor="middle" font-size="20" fill="#6b6b6b">Вкусный семейный стол</text>
+  </g>
+</svg>
