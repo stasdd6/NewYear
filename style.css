@@ -25,10 +25,17 @@ body{
 .subtitle{margin:0 0 1.25rem 0;color:var(--muted)}
 .card-section{margin-top:1rem}
 .question-text{font-size:1.125rem;margin:0 0 1rem 0}
-.answer-form{display:flex;gap:.5rem;align-items:center;justify-content:center}
-.answer-input{flex:1;padding:.6rem .75rem;border-radius:10px;border:1px solid #e6e1dc;font-size:1rem}
-.btn{background:var(--accent);color:white;border:none;padding:.6rem .9rem;border-radius:10px;cursor:pointer}
+/* stack input and button vertically for better mobile UX */
+.answer-form{display:flex;flex-direction:column;gap:.5rem;align-items:stretch}
+.answer-input{width:100%;padding:.6rem .75rem;border-radius:10px;border:1px solid #e6e1dc;font-size:1rem}
+.btn{background:var(--accent);color:white;border:none;padding:.6rem .9rem;border-radius:10px;cursor:pointer;max-width:280px;width:100%;align-self:center}
 .btn:active{transform:translateY(1px)}
+
+@media(min-width:660px){
+  /* slightly narrower button on larger screens, input still full width inside card */
+  .answer-form{flex-direction:column;align-items:stretch}
+  .btn{width:auto;min-width:180px}
+}
 .feedback{margin-top:.75rem;color:var(--muted);min-height:1.25rem}
 .result{margin-top:1.25rem}
 .answer-image{max-width:100%;border-radius:12px;margin-top:.75rem;opacity:0;transform:translateY(10px);transition:opacity .6s ease,transform .6s ease}
